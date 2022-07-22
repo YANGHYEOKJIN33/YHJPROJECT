@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <VBox layoutX="77.0" layoutY="143.0" prefHeight="506.0" prefWidth="325.0">
+         <children>
+            <Label text="Hello World!">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="217.0" fitWidth="282.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/승범이%20형과%20함께.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
